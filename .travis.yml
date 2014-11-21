@@ -1,10 +1,16 @@
 language: ruby
 rvm:
-  - 2.1.2
-  - 2.1.4
-
+- 2.1.2
+- 2.1.4
 addons:
-postgresql: "9.3"
-
+postgresql: '9.3'
 before_script:
-  - psql -c 'create database travis_ci_test;' -U postgres
+- psql -c 'create database travis_ci_test;' -U postgres
+deploy:
+  provider: heroku
+  on: production
+  api_key:
+    secure: VK03ygD7Z50tdyY1xvDqsYomBAF8U15Hwh8+f9m4uKhGxefc7DBf3e6A1Vvbaq1m1FTLFLNv6/XmRstDFttM11W/dEcQ1fNN7L7QpRFrJsAzrWTtj6aoSwf7FNFEwxUR8rUXMNQBwnGnKke9qejx1PaOMU+K/Zg93dLd6S8yLm8=
+  app: current-hotness
+  on:
+    repo: robbiethegeek/current-hotness
