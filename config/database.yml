@@ -41,3 +41,9 @@ development:
   username: ch_user
   password: ch_pass
 
+
+production:
+  adapter: postgresql
+  database: my_database_production
+  pool: 5
+  timeout: 5000
