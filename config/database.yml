@@ -40,3 +40,4 @@ development:
   database: current_hotness
   username: ch_user
   password: ch_pass
+
