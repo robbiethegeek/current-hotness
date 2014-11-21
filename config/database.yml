@@ -34,3 +34,9 @@ test:
   adapter: postgresql
   database: travis_ci_test
   username: postgres
+
+development:
+  adapter: postgresql
+  database: current_hotness
+  username: ch_user
+  password: ch_pass
