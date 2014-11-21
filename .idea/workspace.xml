@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b1f6a22-be44-4248-b01b-bd8327ad4564" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gemfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config.ru" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myapp.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/index.haml" afterPath="" />
-    </list>
+    <list default="true" id="7b1f6a22-be44-4248-b01b-bd8327ad4564" name="Default" comment="" />
     <ignored path="current_hotness.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
