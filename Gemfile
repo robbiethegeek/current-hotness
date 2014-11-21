@@ -43,6 +43,8 @@ gem 'spring',        group: :development
 ######### Gems for all environments :###########
 ################################################
 gem 'pg'
+gem 'bootstrap-sass'
+gem 'autoprefixer-rails'
 ################################################
 ######### Gems for development only :###########
 ################################################
