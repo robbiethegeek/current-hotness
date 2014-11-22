@@ -45,6 +45,7 @@ gem 'spring',        group: :development
 gem 'pg'
 gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
+gem 'modernizr-rails'
 ################################################
 ######### Gems for development only :###########
 ################################################

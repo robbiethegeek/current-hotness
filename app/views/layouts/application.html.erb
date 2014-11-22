@@ -4,9 +4,10 @@
   <title>Welcome to the Current Hotness</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag :modernizr %>
   <%= csrf_meta_tags %>
 </head>
-<body>
+<body class="application-html-erb">
 <section>
   <header>
     The Current Hotness
@@ -18,6 +19,14 @@
   </nav>
 </section>
 <%= yield %>
-
+<footer>
+  <nav>
+    <ul id="social-media">
+      <li><a id="twitter" href="http://www.twitter.com/current_hotness">Twitter</a></li>
+      <li><a id="facebook" href="https://www.facebook.com/currenthotness">Facebook</a></li>
+    </ul>
+    <p class="copyright">&copy; <%= Time.new.year %> The Current Hotness | Established 2014</p>
+  </nav>
+</footer>
 </body>
 </html>

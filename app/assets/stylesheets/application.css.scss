@@ -1,0 +1,32 @@
+.application-html-erb footer #social-media {
+    li {
+        float: left;
+        padding-right: 20px;
+        a {
+            padding-top: 72px;
+            width: 72px;
+            height: 0px;
+            display: block;
+            overflow: hidden;
+            padding-top: 72px;
+            width: 72px;
+            height: 0px;
+            display: block;
+            overflow: hidden;
+            &#twitter {
+                background: image-url("social-media-icons/twitter.png") no-repeat 0 0;
+
+            }
+            &#facebook {
+                background: image-url("social-media-icons/facebook.png") no-repeat 0 0;
+            }
+        }
+    }
+}
+
+.application-html-erb footer .copyright {
+    clear: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
