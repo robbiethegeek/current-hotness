@@ -32,8 +32,9 @@ default: &default
 
 test:
   adapter: postgresql
-  database: travis_ci_test
-  username: postgres
+  database: current_hotness_test
+  username: ch_user
+  password: ch_pass
 
 development:
   adapter: postgresql
